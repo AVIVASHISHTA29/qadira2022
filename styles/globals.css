@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "AnandaRegular";
+  src: url("../public/fonts/AnandaNamasteRegular.ttf");
+}
+
+@font-face {
+  font-family: "NexaLight";
+  src: url("../public/fonts/NexaLight.otf");
+}
+
+@font-face {
+  font-family: "NexaBold";
+  src: url("../public/fonts/NexaBold.otf");
+}
+
+:root {
+  --red: #ee4037;
+  --black: #111011;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mainWrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.leftContainer {
+  width: 20%;
+  min-width: 270px;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  /* border-right: 2px solid var(--black); */
+  background-color: #fff;
+  z-index: 100;
+}
+
+.rightContainer {
+  width: 80%;
+  margin-left: auto;
+  background-color: #fff;
+  height: -webkit-fill-available !important;
+}
+
+::selection {
+  color: var(--red);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--red);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--red);
+}
