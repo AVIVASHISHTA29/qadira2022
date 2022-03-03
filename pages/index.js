@@ -12,7 +12,6 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [flag, setFlag] = useState(false);
-  const { innerWidth: width, innerHeight: height } = window;
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -27,6 +26,7 @@ export default function Home() {
 
   const stickNavbar = () => {
     if (typeof window !== "undefined") {
+      const { innerWidth: width, innerHeight: height } = window;
       let windowHeight = window.scrollY;
       windowHeight > innerHeight ? setFlag(true) : setFlag(false);
     }
