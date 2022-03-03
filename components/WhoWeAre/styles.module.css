@@ -39,6 +39,8 @@
   }
   .imgFlex img {
     max-height: 200px;
+    width: 100%;
+    object-fit: cover;
   }
   .container h1 {
     font-size: 3rem;
