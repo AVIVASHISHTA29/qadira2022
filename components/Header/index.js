@@ -47,6 +47,9 @@ function Header({ fixed }) {
             <Link href="/#campaigns">
               <p className={styles.navLinks}>Campaigns</p>
             </Link>
+            <Link href="https://projectqadira.in">
+              <p className={styles.navLinks}>Project</p>
+            </Link>
           </div>
           {/* <div className={styles.rightContainer}>
             <Link href="https://instagram.com/_drishti.makhijani">

@@ -86,6 +86,22 @@ function MobileViewList() {
           <ListItemText primary="Campaigns" />
         </ListItem>
       </Link>
+      <Link
+        passHref={true}
+        href="https://projectqadira.in"
+        className={styles.headernav}
+        style={{
+          color: "#000",
+          opacity: 0.5,
+          display: "flex",
+          alignItems: "center",
+          textDecoration: "none",
+        }}
+      >
+        <ListItem>
+          <ListItemText primary="Project" />
+        </ListItem>
+      </Link>
     </List>
   );
 }
