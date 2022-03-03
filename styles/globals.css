@@ -102,3 +102,10 @@ a {
 .cls-2 {
   fill: #100f10;
 }
+
+.cls-3 {
+  fill: var(--red);
+}
+.cls-2 {
+  fill: #100f10;
+}

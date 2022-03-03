@@ -6,7 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 import DrawerComponent from "./DrawerComponent";
 import { useEffect, useState } from "react";
-function Header() {
+function Header({ fixed }) {
   const [open, setOpen] = useState(true);
 
   useEffect(() => {
@@ -28,7 +28,10 @@ function Header() {
   }
 
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      style={{ position: fixed ? "fixed" : "" }}
+    >
       {open && (
         <>
           <div className={styles.rightContainer}>

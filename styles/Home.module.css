@@ -1,2 +1,14 @@
-.container {
+.parallax {
+  min-height: 100vh;
+  background-image: url("../public/assets/logoRed.svg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: center; */
+  background-size: 80% 80%;
+}
+
+.parallax2 {
+  background-color: var(--background-color);
 }

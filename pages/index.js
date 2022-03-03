@@ -7,16 +7,43 @@ import WhoWeAre from "../components/WhoWeAre";
 import WhatWeOffer from "../components/WhatWeOffer";
 import Campaigns from "../components/Campaigns";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [flag, setFlag] = useState(false);
+  const { innerWidth: width, innerHeight: height } = window;
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+
+    return () => {
+      window.removeEventListener("scroll", stickNavbar);
+    };
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > innerHeight ? setFlag(true) : setFlag(false);
+    }
+  };
   return (
     <div className={styles.wrapper}>
-      <Header />
-      <IntroComponent />
-      <WhoWeAre />
-      <WhatWeOffer />
-      <Campaigns />
-      <Footer />
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7, ease: "easeInOut" }}
+        className={styles.parallax}
+      ></motion.div>
+      <div className={styles.parallax2}>
+        <Header fixed={flag} />
+        <IntroComponent />
+        <WhoWeAre />
+        <WhatWeOffer />
+        <Campaigns />
+        <Footer />
+      </div>
     </div>
   );
 }
