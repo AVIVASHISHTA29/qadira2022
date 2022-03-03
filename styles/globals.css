@@ -13,9 +13,13 @@
   src: url("../public/fonts/NexaBold.otf");
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;1,300;1,400&display=swap");
+
 :root {
   --red: #ee4037;
   --black: #111011;
+  --background-color: #f2eddb;
+  --border-color: #d4ae93;
 }
 
 html,
@@ -26,6 +30,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: var(--background-color);
 }
 
 a {
@@ -71,20 +76,29 @@ a {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
+  border-radius: 300px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--black);
+  background: var(--background-color);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--red);
+  background: var(--border-color);
+  border-radius: 300px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--red);
+}
+
+.cls-1 {
+  fill: #f8f1f0;
+}
+.cls-2 {
+  fill: #100f10;
 }
