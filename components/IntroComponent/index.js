@@ -9,6 +9,7 @@ function IntroComponent() {
         className={styles.upperText}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
         transition={{ duration: 0.7, ease: "easeInOut" }}
       >
         Yes, it&apos;s that time of the month. Yes, it&apos;s painful.Yes, its
@@ -17,6 +18,7 @@ function IntroComponent() {
           className={styles.middleText}
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
           transition={{ delay: 0.25, duration: 1.5, ease: "easeInOut" }}
         >
           Bleed
@@ -32,6 +34,7 @@ function IntroComponent() {
           style={{ color: "var(--red)" }}
           initial={{ opacity: 0, x: 10 }}
           whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
           transition={{ delay: 0.75, duration: 0.7, ease: "easeInOut" }}
         >
           Period for real

@@ -38,6 +38,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeInOut" }}
+        viewport={{ once: true }}
         className={styles.parallax}
       ></motion.div>
       <div className={styles.parallax2}>
