@@ -26,7 +26,7 @@ export default function Home() {
   }, []);
 
   const stickNavbar = () => {
-    if (window !== undefined) {
+    if (typeof window !== "undefined") {
       let windowHeight = window.scrollY;
       windowHeight > innerHeight ? setFlag(true) : setFlag(false);
     }
