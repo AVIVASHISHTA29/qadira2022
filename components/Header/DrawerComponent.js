@@ -65,7 +65,7 @@ export default function TemporaryDrawer() {
             >
               <path
                 d="M4 8H20M4 16H20"
-                stroke="#000"
+                stroke="var(--red)"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"

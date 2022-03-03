@@ -22,3 +22,16 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+@media only screen and (max-width: 1000px) {
+  .wrapper h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .campaignFlex {
+    justify-content: flex-start;
+    overflow-x: auto;
+    width: 100%;
+  }
+}

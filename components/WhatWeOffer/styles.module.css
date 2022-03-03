@@ -29,3 +29,20 @@
   color: var(--border-color);
   font-weight: 300;
 }
+
+@media only screen and (max-width: 1000px) {
+  .specialText {
+    font-size: 3rem;
+  }
+  .wrapper h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .wrapper p {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
