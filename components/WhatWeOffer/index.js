@@ -69,7 +69,7 @@ function WhatWeOffer() {
                 className={styles.line2}
                 style={{ width: "50%", left: "-55%" }}
               ></span>
-              <h1 style={{ left: "-60px" }}>Helps Prevent UTI's</h1>
+              <h1 style={{ left: "-60px" }}>Helps Prevent UTI&apos;s</h1>
             </div>
 
             <div className={styles.innerDiv2}>
@@ -95,7 +95,7 @@ function WhatWeOffer() {
             <span>4.</span> Chemical Free
           </h1>
           <h1>
-            <span>5.</span> Prevent UTI's
+            <span>5.</span> Prevent UTI&apos;s
           </h1>
           <h1>
             <span>6.</span> Biodegradable
