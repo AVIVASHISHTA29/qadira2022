@@ -1,5 +1,5 @@
 .container {
-  padding: 35px;
+  padding: 25px;
   font-family: "Spline Sans", sans-serif;
   text-transform: lowercase;
   font-weight: 300;
@@ -11,7 +11,6 @@
   justify-content: space-between;
   background-color: var(--background-color);
   border-bottom: 1px solid var(--border-color);
-
   /* left: 5%; */
   z-index: 100;
   top: 0;
