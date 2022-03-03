@@ -1,10 +1,10 @@
 .wrapper {
-  min-height: 100vh;
+  height: auto;
   width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+  padding-bottom: 50px;
 }
 
 .wrapper h1 {
@@ -15,9 +15,7 @@
   font-size: 4rem;
 }
 .campaignFlex {
-  position: absolute;
-  right: 0;
-  bottom: 5rem;
+  margin-top: 50px;
   width: 70%;
   display: flex;
   margin-left: auto;

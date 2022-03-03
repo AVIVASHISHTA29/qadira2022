@@ -1,10 +1,16 @@
 .wrapper {
   min-height: 100vh;
   background-color: var(--red);
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 .logo {
-  width: 30%;
+  min-height: 100vh;
+  background-image: url("../../public/assets/whiteLogo.svg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: center; */
+  background-size: 50% 50%;
 }

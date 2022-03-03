@@ -7,6 +7,7 @@ import WhoWeAre from "../components/WhoWeAre";
 import WhatWeOffer from "../components/WhatWeOffer";
 import Campaigns from "../components/Campaigns";
 import Footer from "../components/Footer";
+import Footer2 from "../components/Footer2";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -46,6 +47,7 @@ export default function Home() {
         <WhatWeOffer />
         <Campaigns />
         <Footer />
+        {/* <Footer2 /> */}
       </div>
     </div>
   );

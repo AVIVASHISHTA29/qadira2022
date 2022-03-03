@@ -1,0 +1,30 @@
+.wrapper {
+  min-height: 100vh;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Spectral", serif;
+}
+.wrapper h1 {
+  text-align: left;
+  color: var(--red);
+  font-size: 4rem;
+}
+.wrapper h3 {
+  text-align: left;
+  color: var(--red);
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.wrapper p {
+  font-family: "Spline Sans", sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--red);
+  font-weight: 300;
+}
