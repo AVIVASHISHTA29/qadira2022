@@ -27,6 +27,80 @@ function WhatWeOffer() {
           What We Offer
         </motion.h1>
         <p>We offer a range of anion chip disposable sanitary pads.</p>
+        <div className={styles.flexDivImage}>
+          <div className={styles.leftDiv}>
+            <div className={styles.innerDiv}>
+              <h1>Kills 99% Bacteria</h1>
+              <span
+                className={styles.line}
+                style={{ width: "50%", right: "-200px" }}
+              ></span>
+            </div>
+            <div className={styles.innerDiv}>
+              <h1>Unscented</h1>
+              <span
+                className={styles.line}
+                style={{ width: "100%", right: "-200px" }}
+              ></span>
+            </div>
+
+            <div className={styles.innerDiv}>
+              <h1>Skin Friendly</h1>
+              <span
+                className={styles.line}
+                style={{ width: "80%", right: "-200px" }}
+              ></span>
+            </div>
+          </div>
+          <img
+            className={styles.productImage}
+            src={"/assets/images/product.png"}
+          />
+          <div className={styles.rightDiv}>
+            <div className={styles.innerDiv2}>
+              <span
+                className={styles.line2}
+                style={{ width: "80%", left: "-55%" }}
+              ></span>
+              <h1>Chemical Free</h1>
+            </div>
+            <div className={styles.innerDiv2}>
+              <span
+                className={styles.line2}
+                style={{ width: "50%", left: "-55%" }}
+              ></span>
+              <h1 style={{ left: "-60px" }}>Helps Prevent UTI's</h1>
+            </div>
+
+            <div className={styles.innerDiv2}>
+              <span
+                className={styles.line2}
+                style={{ width: "85%", left: "-60%" }}
+              ></span>
+              <h1>Biodegradable</h1>
+            </div>
+          </div>
+        </div>
+        <div className={styles.pointsDiv}>
+          <h1>
+            <span>1.</span> Kills 99% Bacteria
+          </h1>
+          <h1>
+            <span>2.</span> Unscented
+          </h1>
+          <h1>
+            <span>3.</span> Skin Friendly
+          </h1>
+          <h1>
+            <span>4.</span> Chemical Free
+          </h1>
+          <h1>
+            <span>5.</span> Prevent UTI's
+          </h1>
+          <h1>
+            <span>6.</span> Biodegradable
+          </h1>
+        </div>
       </div>
     </div>
   );

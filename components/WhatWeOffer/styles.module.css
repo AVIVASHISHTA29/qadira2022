@@ -29,6 +29,81 @@
   color: var(--border-color);
   font-weight: 300;
 }
+.productImage {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexDivImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.leftDiv {
+  width: 50%;
+}
+.rightDiv {
+  width: 50%;
+}
+.innerDiv {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.innerDiv h1 {
+  font-size: 2.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.innerDiv2 {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.innerDiv2 h1 {
+  font-size: 2.5rem;
+  text-align: right;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.line {
+  height: 2px;
+  background-color: var(--border-color);
+  width: 100%;
+  position: absolute;
+  right: -100px;
+}
+
+.line2 {
+  height: 2px;
+  background-color: var(--border-color);
+  width: 100%;
+  position: absolute;
+  left: -100px;
+}
+
+.pointsDiv {
+  display: none;
+}
+
+.pointsDiv h1 {
+  font-size: 1.5rem !important;
+  text-align: left !important;
+  font-family: "Spline Sans", sans-serif !important;
+  font-size: 1.5rem;
+  color: var(--border-color);
+  font-weight: 300;
+}
 
 @media only screen and (max-width: 1000px) {
   .specialText {
@@ -44,5 +119,21 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+  .pointsDiv {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .leftDiv {
+    display: none;
+  }
+  .rightDiv {
+    display: none;
+  }
+
+  .pointsDiv {
+    display: block;
   }
 }
