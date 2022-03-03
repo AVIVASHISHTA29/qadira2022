@@ -7,13 +7,13 @@ function WhatWeOffer() {
     <div className={styles.container}>
       <Marquee speed={100} pauseOnHover={true} gradient={false}>
         <p className={styles.specialText}>
-          We don't bleed blue.
+          We don&apos;t bleed blue.
           <span className={"stroke"} style={{ color: "var(--red)" }}>
-            We don't bleed blue.
+            We don&apos;t bleed blue.
           </span>
-          We don't bleed blue. We don't bleed blue.
+          We don&apos;t bleed blue. We don&apos;t bleed blue.
           <span className={"stroke"} style={{ color: "var(--red)" }}>
-            We don't bleed blue.
+            We don&apos;t bleed blue.
           </span>
         </p>
       </Marquee>

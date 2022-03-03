@@ -11,8 +11,8 @@ function IntroComponent() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.7, ease: "easeInOut" }}
       >
-        Yes, it's that time of the month. Yes, it's painful.Yes, its mood
-        swings. Yes, it's bloody.
+        Yes, it&apos;s that time of the month. Yes, it&apos;s painful.Yes, its
+        mood swings. Yes, it&apos;s bloody.
         <motion.p
           className={styles.middleText}
           initial={{ opacity: 0, x: -50 }}
