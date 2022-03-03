@@ -9,7 +9,7 @@
   width: 100vw;
 }
 .imgFlex img {
-  height: 50vh;
+  height: 40vh;
   flex: 1;
   object-fit: cover;
 }
