@@ -1,24 +1,42 @@
+import { motion } from "framer-motion";
 import React from "react";
 import styles from "./styles.module.css";
 
 function IntroComponent() {
   return (
     <div className={styles.wrapper}>
-      <p className={styles.upperText}>
+      <motion.p
+        className={styles.upperText}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.7, ease: "easeInOut" }}
+      >
         Yes, it's that time of the month. Yes, it's painful.Yes, its mood
         swings. Yes, it's bloody.
-        <p className={styles.middleText}>
+        <motion.p
+          className={styles.middleText}
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.25, duration: 1.5, ease: "easeInOut" }}
+        >
           Bleed
           <br />
           with
           <br />
           pride.
-        </p>
+        </motion.p>
         But No more shame. No more hiding. No more hushing our voices. No more
         stain checks. No more blushing. No more rain checks. No more pretending.
         No more excuses. No more embarrassment.{" "}
-        <span style={{ color: "var(--red)" }}>Period for real</span>
-      </p>
+        <motion.span
+          style={{ color: "var(--red)" }}
+          initial={{ opacity: 0, x: 10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.75, duration: 0.7, ease: "easeInOut" }}
+        >
+          Period for real
+        </motion.span>
+      </motion.p>
 
       <p className={styles.lowerText}></p>
     </div>
