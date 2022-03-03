@@ -11,7 +11,7 @@ function Footer2() {
       <h3>Email Address</h3>
       <p>team@qadira.in</p>
       <h3>Phone Number</h3>
-      <p>123456789</p>
+      <p>+91 123456789</p>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./styles.module.css";
 function WhoWeAre() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="aboutus">
       <div className={styles.imgFlex}>
         <motion.img
           src={"/assets/images/carouselImages/carousel3.png"}

@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 function WhatWeOffer() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="product">
       <Marquee speed={100} pauseOnHover={true} gradient={false}>
         <p className={styles.specialText}>
           We don&apos;t bleed blue.
