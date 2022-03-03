@@ -15,11 +15,14 @@ export default function Home() {
   const { innerWidth: width, innerHeight: height } = window;
 
   useEffect(() => {
-    window.addEventListener("scroll", stickNavbar);
+    if (typeof window !== "undefined") {
+      // Client-side-only code
+      window.addEventListener("scroll", stickNavbar);
 
-    return () => {
-      window.removeEventListener("scroll", stickNavbar);
-    };
+      return () => {
+        window.removeEventListener("scroll", stickNavbar);
+      };
+    }
   }, []);
 
   const stickNavbar = () => {
