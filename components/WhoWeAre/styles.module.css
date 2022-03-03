@@ -1,6 +1,7 @@
 .container {
   height: auto;
   font-family: "Spectral", serif;
+  margin-top: 50px;
 }
 .imgFlex {
   display: flex;

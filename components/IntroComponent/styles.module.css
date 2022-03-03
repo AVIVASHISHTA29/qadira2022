@@ -7,8 +7,9 @@
   padding-top: 150px;
   font-family: "Spectral", serif;
   color: var(--border-color);
-  font-size: 4.7rem;
+  font-size: 4.5rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 .upperText {
