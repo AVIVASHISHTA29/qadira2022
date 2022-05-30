@@ -11,6 +11,7 @@ import Footer2 from "../components/Footer2";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import LinksComponent from "../components/LinksComponent";
+import Pad from "../components/Pad";
 
 export default function Home() {
   const [flag, setFlag] = useState(false);
@@ -46,11 +47,10 @@ export default function Home() {
         <Header fixed={flag} />
         <IntroComponent />
         <WhoWeAre />
-        <WhatWeOffer />
+        <Pad />
         <Campaigns />
         <LinksComponent />
         <Footer />
-        {/* <Footer2 /> */}
       </div>
     </div>
   );

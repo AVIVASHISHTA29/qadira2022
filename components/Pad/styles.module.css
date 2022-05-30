@@ -1,0 +1,12 @@
+.wrapper {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper h1 {
+  text-align: left;
+  color: var(--red);
+  font-size: 4rem;
+  font-family: "Spectral", serif;
+}
