@@ -44,8 +44,8 @@ function Header({ fixed }) {
             <Link href="/#product">
               <p className={styles.navLinks}>Product</p>
             </Link>
-            <Link href="/#campaigns">
-              <p className={styles.navLinks}>Campaigns</p>
+            <Link href="/#testimonials">
+              <p className={styles.navLinks}>Testimonials</p>
             </Link>
             <Link href="https://projectqadira.in">
               <p className={styles.navLinks}>Project</p>

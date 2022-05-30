@@ -4,7 +4,7 @@ import CampaignComponent from "../CampaignComponent";
 import { motion } from "framer-motion";
 function Campaigns() {
   return (
-    <div className={styles.wrapper} id="campaigns">
+    <div className={styles.wrapper} id="testimonials">
       <motion.h1
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}

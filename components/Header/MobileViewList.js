@@ -72,7 +72,7 @@ function MobileViewList() {
 
       <Link
         passHref={true}
-        href="/#campaigns"
+        href="/#testimonials"
         className={styles.headernav}
         style={{
           color: "#000",
@@ -83,7 +83,7 @@ function MobileViewList() {
         }}
       >
         <ListItem>
-          <ListItemText primary="Campaigns" />
+          <ListItemText primary="Testimonials" />
         </ListItem>
       </Link>
       <Link
