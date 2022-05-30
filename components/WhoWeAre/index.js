@@ -49,7 +49,11 @@ function WhoWeAre() {
           committed to building an intersectional and inclusive period positive
           society.
         </motion.p>
-        <img src={"/assets/images/box.png"} style={{ width: "40%" }} />
+        <img
+          src={"/assets/images/box.png"}
+          className={styles.boxImg}
+          style={{ width: "50%" }}
+        />
       </div>
     </div>
   );

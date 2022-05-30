@@ -60,4 +60,16 @@
     padding-top: 0rem;
     padding-bottom: 0rem;
   }
+  .container p {
+    width: 100%;
+  }
+  .imgTextFlex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .boxImg {
+    width: 130% !important;
+  }
 }
