@@ -5,7 +5,7 @@
 }
 .specialText {
   font-size: 5rem;
-  color: var(--border-color);
+  color: #fff;
 }
 .wrapper {
   width: 90%;
@@ -36,6 +36,11 @@
   margin-right: auto;
 }
 
+.marqueeDiv {
+  background-color: var(--red);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .flexDivImage {
   display: flex;
   justify-content: center;

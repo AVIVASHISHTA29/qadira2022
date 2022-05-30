@@ -5,18 +5,20 @@ import { motion } from "framer-motion";
 function WhatWeOffer() {
   return (
     <div className={styles.container} id="product">
-      <Marquee speed={100} pauseOnHover={true} gradient={false}>
-        <p className={styles.specialText}>
-          We don&apos;t bleed blue.
-          <span className={"stroke"} style={{ color: "var(--red)" }}>
+      <div className={styles.marqueeDiv}>
+        <Marquee speed={100} pauseOnHover={true} gradient={false}>
+          <p className={styles.specialText}>
             We don&apos;t bleed blue.
-          </span>
-          We don&apos;t bleed blue. We don&apos;t bleed blue.
-          <span className={"stroke"} style={{ color: "var(--red)" }}>
-            We don&apos;t bleed blue.
-          </span>
-        </p>
-      </Marquee>
+            <span className={"stroke"} style={{ color: "#fff", opacity: 0.5 }}>
+              We don&apos;t bleed blue.
+            </span>
+            We don&apos;t bleed blue. We don&apos;t bleed blue.
+            <span className={"stroke"} style={{ color: "#fff", opacity: 0.5 }}>
+              We don&apos;t bleed blue.
+            </span>
+          </p>
+        </Marquee>
+      </div>
       <div className={styles.wrapper}>
         <motion.h1
           initial={{ opacity: 0, x: 50 }}

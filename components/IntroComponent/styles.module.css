@@ -1,5 +1,5 @@
 .wrapper {
-  min-height: 100vh;
+  height: auto;
   width: 90%;
   display: block;
   margin-left: auto;
@@ -15,6 +15,7 @@
 .upperText {
   display: inline;
   margin: 0;
+  color: #f0dec0;
 }
 .middleText {
   float: left;

@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import Footer2 from "../components/Footer2";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import LinksComponent from "../components/LinksComponent";
 
 export default function Home() {
   const [flag, setFlag] = useState(false);
@@ -47,6 +48,7 @@ export default function Home() {
         <WhoWeAre />
         <WhatWeOffer />
         <Campaigns />
+        <LinksComponent />
         <Footer />
         {/* <Footer2 /> */}
       </div>

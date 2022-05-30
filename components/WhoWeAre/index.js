@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 function WhoWeAre() {
   return (
     <div className={styles.container} id="aboutus">
-      <div className={styles.imgFlex}>
+      {/* <div className={styles.imgFlex}>
         <motion.img
           src={"/assets/images/carouselImages/carousel3.png"}
           initial={{ opacity: 0, x: -20 }}
@@ -26,26 +26,31 @@ function WhoWeAre() {
           viewport={{ once: true }}
           transition={{ delay: 1, duration: 0.7, ease: "easeInOut" }}
         />
-      </div>
+      </div> */}
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 1, duration: 0.7, ease: "easeInOut" }}
+        style={{ textAlign: "left" }}
       >
-        Who We Are
+        Who Are We
       </motion.h1>
-      <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ delay: 1, duration: 0.7, ease: "easeInOut" }}
-      >
-        We are the voice and reflection of an average Indian modern menstruator.
-        At qadira comfort, affordability and sustainability work harmoniously to
-        create products that menstruators love. We are committed to building an
-        intersectional and inclusive period positive society.
-      </motion.p>
+      <div className={styles.imgTextFlex}>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 1, duration: 0.7, ease: "easeInOut" }}
+        >
+          We are the voice and reflection of an average Indian modern
+          menstruator. At Qadira comfort, affordability, and sustainability work
+          harmoniously to create products that menstruators love. We are
+          committed to building an intersectional and inclusive period positive
+          society.
+        </motion.p>
+        <img src={"/assets/images/box.png"} style={{ width: "40%" }} />
+      </div>
     </div>
   );
 }
