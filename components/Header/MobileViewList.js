@@ -11,96 +11,90 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 function MobileViewList() {
   return (
     <List className={styles.mobileView}>
-      {/* <Avatar
-        src="/assets/drishti.jpeg"
+      <img
+        src={"/assets/images/logo.svg"}
+        width="60%"
         style={{
-          height: 100,
-          width: 100,
-          marginRight: "auto",
+          display: "block",
           marginLeft: "auto",
-          marginBottom: "10px",
-          marginTop: "30px",
+          marginRight: "auto",
+          marginBottom: "3rem",
         }}
-      /> */}
-      <Link
-        passHref={true}
-        href="/"
-        className={styles.headernav}
-        style={{
-          color: "#000",
-          opacity: 0.5,
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
-        <ListItem>
-          <ListItemText primary="Home" />
-        </ListItem>
+      />
+      <Link passHref={true} href="/">
+        <p
+          className={styles.navLinks}
+          style={{
+            marginBottom: "1rem",
+            fontSize: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        >
+          Home
+        </p>
       </Link>
-      <Link
-        passHref={true}
-        href="/#aboutus"
-        className={styles.headernav}
-        style={{
-          color: "#000",
-          opacity: 0.5,
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
-        <ListItem>
-          <ListItemText primary="About" />
-        </ListItem>
+      <Link passHref={true} href="/#aboutus">
+        <p
+          className={styles.navLinks}
+          style={{
+            marginBottom: "1rem",
+            fontSize: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        >
+          {" "}
+          About{" "}
+        </p>
       </Link>
-
-      <Link
-        passHref={true}
-        href="/#product"
-        className={styles.headernav}
-        style={{
-          color: "#000",
-          opacity: 0.5,
-          display: "flex",
-          alignItems: "center",
-          textDecoration: "none",
-        }}
-      >
-        <ListItem>
-          <ListItemText primary="Product" />
-        </ListItem>
+      <Link passHref={true} href="/#product">
+        <p
+          className={styles.navLinks}
+          style={{
+            marginBottom: "1rem",
+            fontSize: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        >
+          {" "}
+          Product{" "}
+        </p>
       </Link>
 
-      <Link
-        passHref={true}
-        href="/#testimonials"
-        className={styles.headernav}
-        style={{
-          color: "#000",
-          opacity: 0.5,
-          display: "flex",
-          alignItems: "center",
-          textDecoration: "none",
-        }}
-      >
-        <ListItem>
-          <ListItemText primary="Testimonials" />
-        </ListItem>
+      <Link passHref={true} href="/#testimonials">
+        <p
+          className={styles.navLinks}
+          style={{
+            marginBottom: "1rem",
+            fontSize: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        >
+          {" "}
+          Testimonials{" "}
+        </p>
       </Link>
-      <Link
-        passHref={true}
-        href="https://projectqadira.in"
-        className={styles.headernav}
-        style={{
-          color: "#000",
-          opacity: 0.5,
-          display: "flex",
-          alignItems: "center",
-          textDecoration: "none",
-        }}
-      >
-        <ListItem>
-          <ListItemText primary="Project" />
-        </ListItem>
+      <Link passHref={true} href="https://projectqadira.in">
+        <p
+          className={styles.navLinks}
+          style={{
+            marginBottom: "1rem",
+            fontSize: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        >
+          {" "}
+          Project{" "}
+        </p>
       </Link>
     </List>
   );

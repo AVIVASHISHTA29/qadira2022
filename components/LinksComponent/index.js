@@ -21,12 +21,10 @@ function LinksComponent() {
         </p>
       </Link>
       <div className={styles.bubbleFlex}>
-        <Bubble text={"Bubble"} />
-        <Bubble text={"Bubble"} />
-        <Bubble text={"Bubble"} />
-        <Bubble text={"Bubble"} />
-        <Bubble text={"Bubble"} />
-        <Bubble text={"Bubble"} />
+        <Bubble text={"7000+ lives impacted"} />
+        <Bubble text={"100+ workshops conducted"} />
+        <Bubble text={"2000+ menstruators"} />
+        <Bubble text={"1+ years"} />
       </div>
     </div>
   );

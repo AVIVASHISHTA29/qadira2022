@@ -93,4 +93,5 @@
   background-color: var(--background-color);
   height: 100%;
   font-family: "Spectral", serif !important;
+  padding-top: 3rem !important;
 }

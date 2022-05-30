@@ -33,6 +33,7 @@
   color: var(--background-color);
   font-size: 1.2rem;
   font-family: "Spectral", serif;
+  text-align: center;
 }
 
 .bubbleFlex {
