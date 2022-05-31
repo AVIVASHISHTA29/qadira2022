@@ -12,7 +12,6 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import LinksComponent from "../components/LinksComponent";
 import Pad from "../components/Pad";
-
 export default function Home() {
   const [flag, setFlag] = useState(false);
 
