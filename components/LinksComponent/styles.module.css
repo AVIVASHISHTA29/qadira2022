@@ -45,7 +45,10 @@
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-.toptxt{
-  font-size:2rem;
+.toptxt {
+  font-size: 2rem;
 }
 
+.bubbleWrapper::selection {
+  background-color: var(--background-color);
+}
